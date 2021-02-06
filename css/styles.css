@@ -3,6 +3,10 @@
     font-family: 'Nunito', sans-serif;
 }
 
+.space-container {
+    margin-bottom: 50px;
+}
+
 .navbar-light {
     background-color: white !important;
 }
@@ -46,6 +50,15 @@
     width: 40%;
 }
 
+.flex-img-container {
+    width: 30%;
+    margin: 20px;
+}
+
+.flex-img {
+    width: 100%;
+}
+
 .section-heading {
     margin-bottom: 0;
     text-align: left;
@@ -56,6 +69,14 @@
     color: #88b30f;
     margin-bottom: 30px;
     font-size: 70px;
+}
+
+.heading-centered {
+    font-family: 'Courgette', cursive;
+    color: #88b30f;
+    margin-bottom: 30px;
+    font-size: 70px;
+    text-align: center;
 }
 
 .sub-heading {
@@ -165,6 +186,15 @@
     transition: width 0.4s linear;
 }
 
+.species-name {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.species-info {
+    font-size: 14px;
+}
+
 .footer {
     position: fixed;
     left: 0;
@@ -225,7 +255,13 @@
         margin: 20px;
     }
 
+    .flex-img-container {
+        width: 100%;
+        margin: 10px;
+    }
+
     .masonry {
         column-count: 1;
     }
+
 }
