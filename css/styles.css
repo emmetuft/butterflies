@@ -195,6 +195,56 @@
     font-size: 14px;
 }
 
+.banner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 150px;
+    padding: 20px;
+    background-color: #eeeeed;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.banner-text {
+    width: 50%;
+    font-size: 25px;
+}
+
+.banner-img {
+    width: 15%;
+}
+
+.banner-species {
+    width: 25%;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.endangered {
+    font-size: 20px;
+    color: red;
+    font-style: italic;
+}
+
+.activity-container {
+    width: 30%;
+    margin: 20px;
+    background-color: #eeeeed;
+}
+
+.activity-heading {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px 20px 10px 20px;
+}
+
+.activity-text {
+    font-size: 14px;
+    padding: 0 20px 20px 20px;
+}
+
 .footer {
     position: fixed;
     left: 0;
@@ -262,6 +312,29 @@
 
     .masonry {
         column-count: 1;
+    }
+
+    .banner {
+        height: 500px;
+    }
+
+    .banner-text {
+        width: 100%;
+        font-size: 35px;
+    }
+    
+    .banner-img {
+        width: 100%;
+    }
+    
+    .banner-species {
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .activity-container {
+        width: 100%;
+        margin: 10px;
     }
 
 }
